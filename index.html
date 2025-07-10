@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfólio - Desenvolvedor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">DevPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title mb-4">Olá, eu sou <span class="text-primary">Thiago Maximo!</span></h1>
+                    <h2 class="hero-subtitle mb-4">Desenvolvedor Full Stack Junior</h2>
+                    <p class="mb-4">Desenvolvimento web com foco em criar soluções escaláveis e eficientes para os desafios do mundo moderno.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#contact" class="btn btn-primary">Contrate-me</a>
+                        <a href="#portfolio" class="btn btn-outline-primary">Ver Portfólio</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/Foto Minha.jpg" alt="Desenvolvedor Full Stack trabalhando em seu escritório moderno" class="img-fluid rounded-circle shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Sobre Mim</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="img/computador.png" alt="Desenvolvedor trabalhando em equipe em ambiente de escritório moderno" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-3">Desenvolvedor Full Stack Junior</h3>
+                    <p>Sou um entusiasta da tecnologia e estudante apaixonado por infraestrutura de redes, desenvolvimento web e programação backend. Atualmente, estou em busca de uma oportunidade de estágio na área de Tecnologia da Informação, onde eu possa aplicar meus conhecimentos e crescer profissionalmente.</p>
+                    <p>Minha abordagem combina conhecimento técnico sólido com habilidades de comunicação eficazes, permitindo-me traduzir requisitos de negócios em soluções técnicas eficientes.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>HTML5, CSS3, JavaScript</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>PHP, Git & GitHub</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Banco de Dados SQL</li>
+                                <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>C#</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Meus Serviços</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4">
+                        <div class="card-icon text-center">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Desenvolvimento Web</h4>
+                            <p class="card-text">Criação de sites responsivos e sistemas web personalizados para atender às necessidades específicas do seu negócio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4">
+                        <div class="card-icon text-center">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Ui/Ux</h4>
+                            <p class="card-text">Design e implementação de estrutura de web site mais fluida e padronizada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card p-4">
+                        <div class="card-icon text-center">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Banco de Dados</h4>
+                            <p class="card-text">Design, implementação e otimização de bancos de dados relacionais para seus aplicativos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Experiência -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Experiência Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Presente</div>
+                    <h3 class="timeline-title">Especialista em suporte de TI</h3>
+                    <p class="text-muted">As-Is Solutions</p>
+                    <p>Suporte técnico para as máquinas da empresa, realizo a documentação dos sistemas, máquinas, sistemas, banco de dados da empresa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Minhas Habilidades</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="skill-name">HTML5</div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 95%"></div>
+                    </div>
+                    <div class="skill-name">CSS3</div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                    </div>
+                    <div class="skill-name">JavaScript (ES6+)</div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="skill-name">SQL</div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                    </div>
+                    <div class="skill-name">C#</div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                    </div>
+                    <div class="skill-name">PHP</div>
+                    <div class="progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Formação Acadêmica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <h3 class="timeline-title">Cursando: Analise E Desenvolvimento De Sistemas</h3>
+                    <p class="text-muted">FAM Centro Universitário das Américas!</p>
+                    <p>2° Semestre</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <h3 class="timeline-title">Assistente De Desenvolvimento De Sistemas</h3>
+                    <p class="text-muted">Senac Itaquera</p>
+                    <p>Formado com honras acadêmicas, com foco em Desenvolvimento Web e Desktop</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <h3 class="timeline-title">Assistente De Operação de Redes de Computadores</h3>
+                    <p class="text-muted">Senac Itaquera</p>
+                    <p>Formado com honras acadêmicas, com foco em Administração de Redes, Realizar a instalação e configuração de um servidor .</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <h3 class="timeline-title">Assistente de Suporte e Manutenção de Computadores</h3>
+                    <p class="text-muted">Senac Itaquera</p>
+                    <p>Formado com honras acadêmicas, com foco em Manutenção de Computadores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Meu Portfólio</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/capa-fotografo.png" alt="Site Landing Page Onde um Fotografo pode Divulgar seus Serviços" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4 class="text-white mb-3">Fotografo</h4>
+                            <p class="text-white">Site Landing Page Onde um Fotografo pode Divulgar seus Serviços</p>
+                            <a href="https://thiago-maximo.github.io/Landing-Page-Fotografo/" class="btn btn-light mt-2" target="_blank">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/capa-tatto.png" alt="Aplicativo mobile de e-commerce com carrinho de compras" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4 class="text-white mb-3">Studio de Tatuagem</h4>
+                            <p class="text-white">Site Landing Page para Um Studio de Tatuagem</p>
+                            <a href="https://thiago-maximo.github.io/Landing-Page-Studio/" class="btn btn-light mt-2" target="_blank">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/capa-salao.png" alt="Interface de plataforma de educação online com vídeo aula" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4 class="text-white mb-3">Site de Salão de Beleza</h4>
+                            <p class="text-white">Site de um Salão De Beleza, para Divulgar Seus Serviços</p>
+                            <a href="#" class="btn btn-light mt-2" target="_blank">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item">
+                        <img src="img/capa-startup.png" alt="Site corporativo moderno para startup de tecnologia" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4 class="text-white mb-3">Site Corporativo</h4>
+                            <p class="text-white">Website para startup de tecnologia</p>
+                            <a href="#" class="btn btn-light mt-2">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Entre em Contato</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="contact-card">
+                        <div class="contact-icon text-center">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Localização</h4>
+                        <p class="text-center">São Paulo, SP - Brasil</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card">
+                        <div class="contact-icon text-center">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Email</h4>
+                        <p class="text-center">thiagomaximo271@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card">
+                        <div class="contact-icon text-center">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h4 class="text-center mb-3">Telefone</h4>
+                        <p class="text-center">+55 (11) 94938-0037</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center">
+        <div class="container">
+            <h3 class="mb-4">DevPortfolio</h3>
+            <p class="mb-4">Soluções tecnológicas para transformar seu negócio</p>
+            <div class="social-icons mb-4">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>© <span id="year"></span> Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Bootstrap 5 JS e Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts personalizados -->
+    <script src="js/script.js"></script>
+</body>
+</html>
